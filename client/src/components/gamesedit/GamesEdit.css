@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+.games-all {
+    margin: 10px auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.game-one {
+    width: 150px;
+    height: auto;
+    border: 1px solid rgb(201, 10, 10);
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 10px;
+    margin: 20px 20px;
+    background-color: black;
+    color: white;
+}
+
+.game-image-one {
+    width: 70px;
+    height: 60px;
+    border-radius: 5px;
+    display: block;
+    object-fit: cover;
+}
+
+.game-title-one {
+    text-transform: uppercase;
+    margin: 10px 0px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.game-price-one {
+    margin: 10px 0px;
+    padding-bottom: 20px;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.game-delete-button-one {
+    font-weight: 700;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: white;
+    color: rgb(245, 12, 12);
+    width: 100%;
+    height: 20px;
+    display: block;
+    cursor: pointer;
+    margin: 15px auto;
+    text-transform: uppercase;
+}
+
+.game-delete-button-one:hover {
+    background-color: red;
+    color: black;
+}
+
+.game-update-button-one {
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: white;
+    width: 100%;
+    height: 20px;
+    display: block;
+    cursor: pointer;
+    margin: 15px auto;
+}
+
+.game-update-button-one a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(38, 7, 151);
+    text-transform: uppercase;
+}
+
+.game-update-button-one:hover {
+    background-color: red;
+}
+
+.game-update-button-one a:hover {
+    color: black;
+}
+
+.game-add-button-one, .back-to-admin-page {
+    border-radius: 5px;
+    border: 1px solid rgb(8, 8, 8);
+    background-color: white;
+    width: 150px;
+    height: 25px;
+    display: block;
+    cursor: pointer;
+    margin: 15px auto;
+}
+
+.game-add-button-one a, .back-to-admin-page a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(16, 48, 2);
+    text-transform: uppercase;
+}
+
+.game-add-button-one:hover, .back-to-admin-page:hover {
+    background-color: red;
+}
+
+.game-add-button-one a:hover, .back-to-admin-page a:hover {
+    color: black;
+}

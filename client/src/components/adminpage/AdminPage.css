@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+.admin-page {   
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    font-size: 2rem;
+    color: rgb(10, 20, 150);
+    font-family: 'Dancing Script', cursive;
+}
+
+h1 {   
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;  
+}
+
+h1 a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 a:hover {
+    color: red;
+}

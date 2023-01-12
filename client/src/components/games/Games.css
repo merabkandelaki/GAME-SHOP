@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+.games {
+    margin: 20px auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.game {
+    width: 300px;
+    height: auto;
+    border: 1px solid rgb(201, 10, 10);
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 10px;
+    margin: 40px 20px;
+    background-color: black;
+    color: white;
+}
+
+.game-image {
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    display: block;
+    object-fit: cover;
+}
+
+.game-title {
+    text-transform: uppercase;
+    margin: 10px 0px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.game-desc {
+    margin-top: 10px;
+    font-size: 17px;
+    font-family: 'Caveat', cursive;
+}
+
+.game-genres {
+    margin-top: 10px;
+    background-color: rgb(80, 82, 84);
+    padding: 2px 5px;
+    font-size: 15px;
+    border-radius: 10px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.game-price {
+    margin: 10px 0px;
+    padding-bottom: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.game-add-to-cart {
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: white;
+    color: black;
+    width: 100%;
+    height: 25px;
+    display: block;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin: 15px auto;
+}
+
+.game-add-to-cart:hover {
+    background-color: red;
+}
+
+.game-add-to-cart:active {
+    transform: translateY(2px);
+}
+

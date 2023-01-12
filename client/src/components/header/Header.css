@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+nav {
+    position: sticky;
+    top: 0;
+    height: 60px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    background-color: rgb(63, 2, 2);
+}
+
+.nav-box {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 60px;
+}
+
+.nav-box a {
+    text-decoration: none;
+}
+
+.my-shop {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    cursor: pointer;
+}
+
+.register,
+.login {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    transition: color, transform 500ms ease;
+}
+
+.register:hover {
+    color: rgb(21, 255, 0);
+}
+
+.login:hover {
+    color: rgb(21, 255, 0);
+}
+
+.cart {
+    cursor: pointer;
+}
+
+.cart span:nth-child(1) {
+    font-size: 1.2rem;
+    color: white;
+    transition: color, transform 500ms ease;
+}
+
+.cart span:nth-child(1):hover {
+    color: rgb(21, 255, 0);
+}
+
+.cart span:nth-child(2) {
+    padding: 0 3px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+    top: 5px;
+}
